@@ -1,0 +1,22 @@
+.login-container{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height:100vh;
+    /* background-color: black; */
+}
+.login-container>input{
+    padding:10px;
+    margin-bottom: 20px;
+    border:none;
+    border-bottom: solid 3px gray;
+}
+/* .login-title{
+    color:white;
+} */
+.login-submit-button{
+    padding:10px;
+    width: 100px;
+    font-size: 15px;
+}

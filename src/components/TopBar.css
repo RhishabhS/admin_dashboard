@@ -1,0 +1,66 @@
+.topbar{
+    width:100%;
+    height:50px;
+    background-color: rgb(70, 65, 65);
+    position:sticky;
+    top:0px;
+    z-index: 1;
+}
+.topbar-wrapper{
+    height:100%;
+    padding: 0px 20px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+
+}
+.logo{
+    font-size: 50px;
+    font-weight: 1000;
+    color: white;
+    cursor: pointer;
+
+}
+.logo-text{
+    font-size: 25px;
+    font-weight: 500;
+    color:white;
+    cursor: pointer;
+}
+.top-right{
+    display:flex;
+    align-items: center;
+    justify-content: center;
+}
+.top-icon-container{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin: 2px;
+    /* background-color: white; */
+    height: 30px;
+    width:30px;
+
+}
+.top-icon-badge{
+    color:white;
+    background-color:red;
+    width:15px;
+    height:15px;
+    position: relative;
+    right:-5px;
+    top:1px;
+    border-radius: 50%;
+    font-size: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 10px
+}
+.top-avatar{
+    width:40px;
+    height:40px;
+    border-radius: 50%;
+    cursor: pointer;
+}
